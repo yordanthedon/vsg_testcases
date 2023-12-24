@@ -1,0 +1,43 @@
+I will ask the analyst:
+1. Are there any different conditions under which toast messages should be triggered and presented to the user?
+ - This could include success messages, error messages, or informative updates.
+2. Are there specific accessibility standards or guidelines that the form needs to adhere to?
+
+Name: Create successfull loan.
+Preconditions: The user is registered in the application and logged in.
+Steps to reproduce: 
+1. Open the application;
+2. Go to Loan Creation page;
+3. Click on "+" sign;
+4. Enter valid infomration for: 
+	1. Name; 
+	2. Balance; 
+	3. Rate.
+Expected results: The loan is successfully created.
+Actual results: ....
+
+Name: Verify the "+" sign button is present and validate the fields are in correct order.
+Preconditions: The user is registered in the application logged in.
+Steps to reproduse:
+1. Open the application.
+2. Go to Loan Creation page.
+3. Click on the "+" sign button.
+4. Loan fields should appear.
+Expected results: The button works and loan fields are presented in correct order.
+Actual results: ....
+
+Name: Verify Name length can't be more than 40 symbols.
+Preconditions: The user is registered in the application and logged in.
+Steps to reproduse:
+1. Open the application;
+2. Go to Loan Creation page;
+3. Click on "+" sign;
+4. Enter the following information:
+	1. Name - More than 40 symbols.
+	2. $999999
+	3. %40
+Expected results: Worning/ error massege that will prevent the user for creating loan.
+Actual results: ....
+
+
+
